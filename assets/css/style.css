@@ -1,13 +1,24 @@
 title {
-	display: non;
+	display: none;
 }
 
 body {
 	font-family: avenir;
 }
 
+header {
+	padding: 50px;
+}
+
+#header {
+	border: 2px dotted #dbdbdb;
+	padding: 20px;
+	text-align: center;
+
 h1 {
-	color: darkgray;
+	color: #373238;
+}
+	
 }
 
 section#coloredboxes div{
@@ -83,4 +94,35 @@ section#section2 div {
 	font-size: 14px;
 	color: #373238;
 	padding: 20px
+}
+
+section#section3 {
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+section#section3 div {
+	min-height: 300px;
+	margin-bottom: 20px;
+} 
+
+div.content-wrapper {
+	border: 2px dotted #dbdbdb;
+	background: #c9acaf;
+	color: #373238;
+	font-size: 14px;
+	padding: 20px
+}
+
+div.video-container {
+	position: relative;
+	width: 100%;
+}
+div.video-container iframe {
+	position: absolute;
+	top: 0; left: 0;
+	margin-left: 15px;
+	height: 100%;
+	width: 96%
 }
