@@ -21,6 +21,8 @@ h1 {
 	
 }
 
+/* colored boxes */ 
+
 section#coloredboxes div{
 	margin-bottom: 50px;
 	font-size: 20px;
@@ -71,6 +73,8 @@ section#coloredboxes {
 	padding: 20px;
 }
 
+/* section 1 */
+
 section#section1 div {
 	min-height: 150px;
 	margin-bottom: 20px;
@@ -87,6 +91,8 @@ section#section1 {
 	grid-template-columns: repeat(2, 1fr);
 }
 
+/* section 2 */
+
 section#section2 div {
 	min-height: 250px;
 	margin-bottom: 20px;
@@ -95,6 +101,8 @@ section#section2 div {
 	color: #373238;
 	padding: 20px
 }
+
+/* section 3 plus video */
 
 section#section3 {
 	display: grid;
