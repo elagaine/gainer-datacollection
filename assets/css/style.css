@@ -10,13 +10,63 @@ h1 {
 	color: darkgray;
 }
 
+section#coloredboxes div{
+	margin-bottom: 50px;
+	font-size: 20px;
+	font-color: 373238;
+}
+
+section#coloredboxes {
+	min-height: 20px;
+	display:  grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(6, 1fr);
+}
+
+#color1 {
+	background: #edf0f5;
+	text-align: center;
+	padding: 20px;
+}
+
+#color2 {
+	background: #ccd4ce;
+	text-align: center;
+	padding: 20px;
+}
+
+#color3 {
+	background: #c9acaf;
+	text-align: center;
+	padding: 20px;
+}
+
+#color4 {
+	background: #373238;
+	text-align: center;
+	color: darkgray;
+	padding: 20px;
+}
+
+#color5 {
+	background: #dbdbdb;
+	text-align: center;
+	padding: 20px;
+}
+
+#color6 {
+	background: #f2d9d9;
+	text-align: center;
+	padding: 20px;
+}
+
 section#section1 div {
 	min-height: 150px;
 	margin-bottom: 20px;
-	background: #df9f9f;
+	background: #c9acaf;
 	font-size: 20px;
-	color: darkslategray;
-	border: 2px dotted lightgray;
+	color: 373238;
+	border: 2px dotted #dbdbdb;
 	padding: 20px;
 }
 
@@ -31,6 +81,6 @@ section#section2 div {
 	margin-bottom: 20px;
 	background: #f2d9d9;
 	font-size: 14px;
-	color: darkgray;
+	color: #373238;
 	padding: 20px
 }
