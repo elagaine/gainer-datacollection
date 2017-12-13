@@ -8,6 +8,7 @@ body {
 
 header {
 	padding: 50px;
+	font-size: 18px;
 }
 
 #header {
@@ -133,4 +134,16 @@ div.video-container iframe {
 	margin-left: 15px;
 	height: 100%;
 	width: 96%
+}
+
+/* footer */
+
+footer {
+	min-height: 350px;
+}
+
+#footer {
+	border: 1px solid #dbdbdb;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
