@@ -22,7 +22,7 @@ h1 {
 	
 }
 
-/* colored boxes */ 
+/* COLORED BOX STUFF */ 
 
 section#coloredboxes div{
 	margin-bottom: 50px;
@@ -74,16 +74,15 @@ section#coloredboxes {
 	padding: 20px;
 }
 
-/* section 1 */
+/* SECTION 1 */
 
 section#section1 div {
 	min-height: 150px;
 	margin-bottom: 20px;
 	background: #c9acaf;
-	font-size: 20px;
-	color: 373238;
-	border: 2px dotted #dbdbdb;
-	padding: 20px;
+	color: #373238;
+	border: 1.65px dashed #dbdbdb;
+	padding: 10px;
 }
 
 section#section1 {
@@ -92,7 +91,7 @@ section#section1 {
 	grid-template-columns: repeat(2, 1fr);
 }
 
-/* section 2 */
+/* SECTION 2 */
 
 section#section2 div {
 	min-height: 250px;
@@ -103,7 +102,7 @@ section#section2 div {
 	padding: 20px
 }
 
-/* section 3 plus video */
+/* SECTION 3 */
 
 section#section3 {
 	display: grid;
@@ -117,8 +116,8 @@ section#section3 div {
 } 
 
 div.content-wrapper {
-	border: 2px dotted #dbdbdb;
-	background: #c9acaf;
+	border: 1px dashed #c9acaf;
+	background: #edf0f5;
 	color: #373238;
 	font-size: 14px;
 	padding: 20px
@@ -136,7 +135,7 @@ div.video-container iframe {
 	width: 96%
 }
 
-/* footer */
+/* FOOTER */
 
 footer {
 	min-height: 350px;
