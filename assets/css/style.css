@@ -18,8 +18,11 @@ header {
 
 h1 {
 	color: #373238;
+}	
 }
-	
+
+@media all and (max-width:480px) {
+	img {display: bloack; margin:0 auto;}
 }
 
 /* COLORED BOX STUFF */ 
@@ -76,12 +79,14 @@ section#coloredboxes {
 
 /* SECTION 1 */
 
+
+
 section#section1 div {
 	min-height: 150px;
 	margin-bottom: 20px;
-	background: #c9acaf;
+	background: #edf0f5;
 	color: #373238;
-	border: 1.65px dashed #dbdbdb;
+	border: 1.65px dashed #c9acaf;
 	padding: 10px;
 }
 
@@ -91,15 +96,37 @@ section#section1 {
 	grid-template-columns: repeat(2, 1fr);
 }
 
+/* SECTION SVG */
+
+#svgdiv {
+	background: #c9acaf;
+}
+
+section#sectionsvg div {
+	min-hight: 300px;
+	margin-bottom: 20px;
+	background: #edf0f5;
+	color: #373238;
+	padding 10px;
+}
+
+section#sectionsvg {
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: repeat(2, 1fr);
+}
+
 /* SECTION 2 */
 
 section#section2 div {
-	min-height: 250px;
 	margin-bottom: 20px;
-	background: #f2d9d9;
-	font-size: 14px;
+	background: #edf0f5;
+	font-size: 24px;
 	color: #373238;
-	padding: 20px
+}
+
+.media-wrapper {
+	verical-align: middle;
 }
 
 /* SECTION 3 */
