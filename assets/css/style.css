@@ -64,8 +64,9 @@ section#section2datavisualization {
 
 #datavizinfo {
 	margin-bottom: 20px;
-	background: #ccd4ce;
-	color: #373238;
+	background: darkslategray;
+	color: #cdcdcd;
+	opacity: 0.75;
 	font-size: 16px;
 	padding: 10px;
 }
@@ -114,7 +115,14 @@ footer {
 }
 
 #footer {
-	background: #ccd4ce;
+	background: darkslategray;
+	color: #cdcdcd;
+	opacity: 0.75;
+	padding: 10px;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
+
+#footer a:link, a:visited {
+	color: #cdcdcd;
+}
+	
