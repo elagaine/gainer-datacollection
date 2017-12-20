@@ -9,6 +9,7 @@ body {
 header {
 	padding: 50px;
 	font-size: 18px;
+	
 }
 
 #header {
@@ -16,31 +17,19 @@ header {
 	padding: 20px;
 	text-align: center;
 
-h1 {
-	color: #373238;
-}	
-}
-
-/* PREFACE */
-
-section#preface {
-	display: grid
-}
-
-#preface {
-	margin-bottom: 20px;
-	background: #edf0f5;
-	color: #373238;
-	background: #ccd4ce;
-	padding: 10px;
 }
 
 /* SECTION 1 */
 
+#datacollectioninfo h3 {
+	color: #c9acaf;
+}
+
 #datacollectioninfo {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	background: #edf0f5;
 	color: #373238;
+	font-size: 16px;
 	border: 1.4px dotted #c9acaf;
 	padding: 10px;
 }
@@ -49,7 +38,7 @@ section#section1datacollection {
 	display: grid;
 	grid-gap: 15px;
 	grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-	margin-bottom: 20px;
+	margin-bottom: 75px;
 }
 
 div.video-container {
@@ -69,7 +58,7 @@ section#section2datavisualization {
 	display: grid;
 	grid-gap: 15px;
 	grid-template-columns: repeat(2, 1fr);
-	margin-bottom: 20px;
+	margin-bottom: 75px;
 }
 
 
@@ -83,6 +72,10 @@ section#section2datavisualization {
 
 /* SECTION 3 */
 
+#section3dataexplained h3 {
+	color: #c9acaf;
+}
+
 section#section3dataexplained {
 	display: grid;
 	grid-gap: 15px;
@@ -91,14 +84,14 @@ section#section3dataexplained {
 
 section#section3dataexplained div {
 	min-height: 300px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 } 
 
 div.content-wrapper {
 	border: 1px dotted #c9acaf;
 	background: #edf0f5;
 	color: #373238;
-	font-size: 14px;
+	font-size: 16px;
 	padding: 20px
 }
 
